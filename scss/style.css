@@ -47,5 +47,7 @@ body {
           background-color: #d9d2e9; }
         body .wrapper .main .content .active {
           display: block !important; }
+        body .wrapper .main .content .hiden {
+          display: none !important; }
 
 /*# sourceMappingURL=style.css.map */

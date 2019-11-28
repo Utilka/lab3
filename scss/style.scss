@@ -4,8 +4,10 @@ body {
         background-color: #ffffff;
         width: 1200px;
         margin: 0 auto;
+        padding: 20px;
         header {
-            margin: 20px auto;
+            padding: 20px;
+            margin: auto;
             width: 1000px;
             display: flex;
             h1 {
@@ -13,12 +15,13 @@ body {
             }
         }
         .main {
-            margin: 0 auto;
+            margin: 20px auto 20px;
             width: 1000px;
             height: 420px;
             display: flex;
             background-color: #cfe2f3;
-            border: 0;
+            border: 0 solid #000000;
+            border-width: 1px;
             .nav {
                 width: 200px;
                 display: flex;
@@ -27,19 +30,30 @@ body {
                     display: block;
                     background-color: #cfe2f3;
                     padding: 10px 10px 15px 10px;
-                    border: 0;
+                    border: 0 solid #000000;
+                    border-width: 0 1px 1px 0;
                 }
                 .active {
                     background-color: #d9d2e9;
+                    border-width: 0 0 1px 0;
                 }
                 .fill_item {
                     height: 100%;
+                    border: 0 solid #000000;
+                    border-width: 0 1px 0 0;
                 }
             }
             .content {
+                width: 800px;
+                height: 100%;
                 .item_content {
+                    padding: 20px;
+                    height: 100%;
                     display: none;
                     background-color: #d9d2e9;
+                }
+                .active {
+                    display: block;
                 }
             }
         }

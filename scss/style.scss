@@ -1,1 +1,22 @@
-.html {}
+.wrapper {
+    width: 1200;
+    margin: 0 auto;
+    header {
+        display: flex;
+    }
+    .main {
+        display: flex;
+        .nav {
+            display: flex;
+            flex-direction: column;
+            .item {
+                display: block;
+            }
+        }
+        .content {
+            .item_content {
+                display: none;
+            }
+        }
+    }
+}

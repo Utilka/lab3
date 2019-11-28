@@ -1,3 +1,16 @@
-
+.wrapper {
+  width: 1200;
+  margin: 0 auto; }
+  .wrapper header {
+    display: flex; }
+  .wrapper .main {
+    display: flex; }
+    .wrapper .main .nav {
+      display: flex;
+      flex-direction: column; }
+      .wrapper .main .nav .item {
+        display: block; }
+    .wrapper .main .content .item_content {
+      display: none; }
 
 /*# sourceMappingURL=style.css.map */

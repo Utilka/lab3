@@ -15,8 +15,10 @@ body {
         .main {
             margin: 0 auto;
             width: 1000px;
+            height: 420px;
             display: flex;
             background-color: #cfe2f3;
+            border: 0;
             .nav {
                 width: 200px;
                 display: flex;
@@ -24,9 +26,14 @@ body {
                 .item {
                     display: block;
                     background-color: #cfe2f3;
+                    padding: 10px 10px 15px 10px;
+                    border: 0;
                 }
                 .active {
                     background-color: #d9d2e9;
+                }
+                .fill_item {
+                    height: 100%;
                 }
             }
             .content {

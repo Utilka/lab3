@@ -13,17 +13,23 @@ body {
     body .wrapper .main {
       margin: 0 auto;
       width: 1000px;
+      height: 420px;
       display: flex;
-      background-color: #cfe2f3; }
+      background-color: #cfe2f3;
+      border: 0; }
       body .wrapper .main .nav {
         width: 200px;
         display: flex;
         flex-direction: column; }
         body .wrapper .main .nav .item {
           display: block;
-          background-color: #cfe2f3; }
+          background-color: #cfe2f3;
+          padding: 10px 10px 15px 10px;
+          border: 0; }
         body .wrapper .main .nav .active {
           background-color: #d9d2e9; }
+        body .wrapper .main .nav .fill_item {
+          height: 100%; }
       body .wrapper .main .content .item_content {
         display: none;
         background-color: #d9d2e9; }

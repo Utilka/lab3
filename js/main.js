@@ -17,14 +17,20 @@ var item_content6 = document.querySelector("#item_content6");
 var item_content7 = document.querySelector("#item_content7");
 var curent_item_content = item_content1;
 
+console.log(curent_item_content);
+
 
 function change_page(to_what_item_change, to_what_item_content_change) {
+    console.log(curent_item_content);
+    console.log(curent_item);
     curent_item.classList.remove('active');
     to_what_item_change.classList.add('active');
     curent_item = to_what_item_change;
-    // curent_item_content.classList.add('hiden');
-    // to_what_item_content_change.classList.remove('hiden');
+    curent_item_content.classList.remove('active');
+    to_what_item_content_change.classList.add('active');
     curent_item_content = to_what_item_content_change;
+    console.log(curent_item_content);
+    console.log(curent_item);
 }
 
 item1.addEventListener("click", function() { change_page(item1, item_content1) });
